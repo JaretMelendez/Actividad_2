@@ -1,0 +1,26 @@
+From cedc4d2c228e3b6e43d19e8dd4a9922a4c40f7fa Mon Sep 17 00:00:00 2001
+From: jaret <jaretsin@hotmail.com>
+Date: Tue, 4 Oct 2022 23:50:26 -0500
+Subject: [PATCH] /*This is the first patch*/
+
+---
+ sl.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/sl.c b/sl.c
+index e549ac8..adcae69 100644
+--- a/sl.c
++++ b/sl.c
+@@ -38,6 +38,9 @@
+ /* sl version 1.00 : SL runs vomiting out smoke.                             */
+ /*                                              by Toyoda Masashi 1992/12/11 */
+ 
++/*This is the first patch*/
++/*creado con el format-patch*/
++
+ #include <curses.h>
+ #include <signal.h>
+ #include <unistd.h>
+-- 
+2.25.1
+
